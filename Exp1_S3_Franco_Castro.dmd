@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp1_S3_Franco_Castro" id="4ED5DFCA-3EC7-7907-55B0-EAE60C4ABEC2" version="3.5">
+<createdBy>franc</createdBy>
+<createdTime>2024-08-27 00:15:29 UTC</createdTime>
+<ownerDesignName>Exp1_S3_Franco_Castro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4ED5DFCA-3EC7-7907-55B0-EAE60C4ABEC2</designId>
+</OSDM_Design>
