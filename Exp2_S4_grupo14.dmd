@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp2_S4_grupo14" id="7091DD95-AEC2-EADE-2C4C-D83395FB0EE2" version="3.5">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:22:31 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7091DD95-AEC2-EADE-2C4C-D83395FB0EE2</designId>
+</OSDM_Design>

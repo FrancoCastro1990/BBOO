@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="B8A4F384-A386-2912-F85C-B1780DB10F46">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:13 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<sourcePk>67FF1CE1-55EC-CDEF-A932-8029ECABD2B6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>304A8984-7CA6-4EBF-451C-38DAFF0E8D3A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9520928-A9E4-6031-3F14-45588C811CB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

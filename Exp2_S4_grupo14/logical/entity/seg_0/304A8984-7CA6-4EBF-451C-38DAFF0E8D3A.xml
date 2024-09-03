@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="304A8984-7CA6-4EBF-451C-38DAFF0E8D3A" name="Clientes">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:22:53 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="836874AD-D399-F41E-454B-BCD3F30BFFDC">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:24:12 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="985F5C38-F21E-BFF3-4AC4-6CC415B26103">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:24:26 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="15D23C90-E028-074D-BD4C-F0180F40BE0C">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:24:56 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="7C544012-C69E-9E43-8301-BE2BF662980E">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:24:58 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contacto" id="1E6556FF-AE99-EA57-8F74-3EECB55DB6F8">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:11 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67FF1CE1-55EC-CDEF-A932-8029ECABD2B6" name="Clientes PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:24:20 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>836874AD-D399-F41E-454B-BCD3F30BFFDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

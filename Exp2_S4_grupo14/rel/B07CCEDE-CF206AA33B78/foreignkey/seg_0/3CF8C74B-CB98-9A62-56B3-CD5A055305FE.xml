@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3CF8C74B-CB98-9A62-56B3-CD5A055305FE" containerWithKeyObject="0B922BC9-8F41-399B-9EAF-DD5AB3E433E8" localFKIndex="501DCD71-C909-23BA-7058-6B6E24FB650C" name="Ordenes_de_Atencion_Vehiculos_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>1F0D4F7E-BF7E-051E-BC19-F7061B91826E</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<referredTableLongName>Vehiculos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63F085ED-1191-DBB8-D3EF-9BE4A010B422</referredTableID>
+<keyObject>44E08079-34E0-443D-84FA-5C404DEA483B</keyObject>
+<referredKeyID>44E08079-34E0-443D-84FA-5C404DEA483B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>patente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

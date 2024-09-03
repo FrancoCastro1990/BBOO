@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7586636C-C11A-DADD-BFF6-2D147B826BC9" name="Clientes">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>304A8984-7CA6-4EBF-451C-38DAFF0E8D3A</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT" id="49F5AC6C-874A-10AD-956B-CD33E14975A2">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>836874AD-D399-F41E-454B-BCD3F30BFFDC</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="E5DFB51B-6702-0C66-8C8C-09BE0A25302D">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>985F5C38-F21E-BFF3-4AC4-6CC415B26103</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="E6BFBADD-B202-E8DB-9E81-AB7229581827">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>15D23C90-E028-074D-BD4C-F0180F40BE0C</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="domicilio" id="CB65F90E-1028-0214-CC02-46A1AD7E666D">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>7C544012-C69E-9E43-8301-BE2BF662980E</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contacto" id="B502C82C-F9B4-CE72-0E3D-A810C6679D24">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>1E6556FF-AE99-EA57-8F74-3EECB55DB6F8</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A20BC210-DCB6-1A3A-6EA8-91219F8EFD76" name="Clientes_PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>67FF1CE1-55EC-CDEF-A932-8029ECABD2B6</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49F5AC6C-874A-10AD-956B-CD33E14975A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

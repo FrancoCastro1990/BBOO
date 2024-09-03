@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A27DD7A-8DB1-F04C-0540-25CA4DC374C9" name="Estado_de_Servicio">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>A5278199-7982-A588-B792-63C1DC4FF600</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="15D3A8BC-7E72-E466-F323-D0FB1030277D">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<generatorID>4FA9BC89-DCD3-7A3B-1FC6-7769E4074047</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="564AB0EF-F0DF-C80E-5D9A-7769E1EAFF2B">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<generatorID>75A3B04C-0BB2-095D-CB03-E1BFF06367C9</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ordenes_de_Atencion_id_orden" id="F02F9779-F621-815E-FBF3-F447DF65A442">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<generatorID>71CEAC34-9C67-E093-D8FA-5D3C8085812A</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0C9D0E8-FF1D-492A-BE5E-49AAF8FF6BDB" referredColumn="287F64C5-166A-0420-1B6C-96CA2ED96CDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D624DD7-9E0A-0882-503A-406C75556AB8" name="Estado_de_Servicio_PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<generatorID>FC81E7F4-4585-E50A-92AF-02EC077254B1</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15D3A8BC-7E72-E466-F323-D0FB1030277D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23826982-17FA-035E-4366-E8FF253DE252" name="Estado_de_Servicio__IDX">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>75B9FDEC-67C0-565E-AD7E-4D6C294C667F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F02F9779-F621-815E-FBF3-F447DF65A442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8438517C-057D-9CA7-0299-B91A91E52E32" name="Estado_de_Servicio_Ordenes_de_Atencion_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:35:34 UTC</createdTime>
+<generatorID>75B9FDEC-67C0-565E-AD7E-4D6C294C667F</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02F9779-F621-815E-FBF3-F447DF65A442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

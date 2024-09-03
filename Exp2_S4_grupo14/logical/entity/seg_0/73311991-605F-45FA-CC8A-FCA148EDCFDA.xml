@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73311991-605F-45FA-CC8A-FCA148EDCFDA" name="Ordenes de Atencion">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:23:06 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_orden" id="CB04C641-1760-0C92-A06A-02D920782E12">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:26:28 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="E6049953-BECC-2F38-3563-8A2A0B2571AD">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:26:44 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_entrega_estimada" id="54FB4153-73C4-46F0-9FF6-21E16BBCEE5E">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:26:58 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="0C7B8918-7331-B845-7016-273E2B12D198">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:27:50 UTC</createdTime>
+<generatorID>0AB9CE6B-4822-999B-EC78-9AB602C8CA2D</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<referedAttribute>836874AD-D399-F41E-454B-BCD3F30BFFDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="patente" id="0806E5EE-C41E-B919-7CF2-1A34D852858C">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:33 UTC</createdTime>
+<generatorID>1F0D4F7E-BF7E-051E-BC19-F7061B91826E</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<referedAttribute>68954A80-A6E9-AC9C-9C82-A4DC6E42D652</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12530CFA-6B79-8B6A-D5BC-A2B115558524" name="Ordenes de Atencion PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:26:38 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB04C641-1760-0C92-A06A-02D920782E12</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

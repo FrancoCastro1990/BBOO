@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B922BC9-8F41-399B-9EAF-DD5AB3E433E8" name="Ordenes_de_Atencion">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>73311991-605F-45FA-CC8A-FCA148EDCFDA</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="287F64C5-166A-0420-1B6C-96CA2ED96CDF">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>CB04C641-1760-0C92-A06A-02D920782E12</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_ingreso" id="49649674-A5CC-8486-875F-989C1FEA2494">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>E6049953-BECC-2F38-3563-8A2A0B2571AD</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_entrega_estimada" id="A8A121F5-676B-54A5-06DF-B75219F52475">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>54FB4153-73C4-46F0-9FF6-21E16BBCEE5E</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clientes_RUT" id="DCDFD703-C6B2-008D-7565-F823C50AA2BF">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>0C7B8918-7331-B845-7016-273E2B12D198</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87159140-E01C-34D5-3BE3-55FED16508CB" referredColumn="49F5AC6C-874A-10AD-956B-CD33E14975A2"/>
+</associations>
+</Column>
+<Column name="Vehiculos_patente" id="2384B72A-BE07-E765-4FF5-3750FC7015C1">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>0806E5EE-C41E-B919-7CF2-1A34D852858C</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3CF8C74B-CB98-9A62-56B3-CD5A055305FE" referredColumn="DED2773B-D337-707B-928A-F09093440723"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7713F29D-8CC7-90E4-BF06-8703A6DC75FC" name="Ordenes_de_Atencion_PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>12530CFA-6B79-8B6A-D5BC-A2B115558524</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="287F64C5-166A-0420-1B6C-96CA2ED96CDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED740811-2B22-16BD-EA3A-06F6C34A17C1" name="Ordenes_de_Atencion_Clientes_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>0AB9CE6B-4822-999B-EC78-9AB602C8CA2D</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCDFD703-C6B2-008D-7565-F823C50AA2BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="501DCD71-C909-23BA-7058-6B6E24FB650C" name="Ordenes_de_Atencion_Vehiculos_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:44 UTC</createdTime>
+<generatorID>1F0D4F7E-BF7E-051E-BC19-F7061B91826E</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2384B72A-BE07-E765-4FF5-3750FC7015C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

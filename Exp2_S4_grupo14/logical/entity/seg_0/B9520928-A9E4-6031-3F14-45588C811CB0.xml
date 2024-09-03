@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9520928-A9E4-6031-3F14-45588C811CB0" name="Vehiculos">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:23:00 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="patente" id="68954A80-A6E9-AC9C-9C82-A4DC6E42D652">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:33 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="AE3A3704-C83D-F020-B876-E661B728F51C">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:49 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="59FD3715-4976-D61A-FB69-AA9361E8B365">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:59 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="2B7EFCDA-82F1-213D-2B1D-7153477C1036">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:59 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="65DD8304-C74F-20F5-4F1D-F63B58EB89C0">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:26:00 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="FC5E711F-3500-4B68-150C-9D72C4C88B2E">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:28:13 UTC</createdTime>
+<generatorID>B8A4F384-A386-2912-F85C-B1780DB10F46</generatorID>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="true"/>
+</engineerTo>
+<referedAttribute>836874AD-D399-F41E-454B-BCD3F30BFFDC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="33C724B8-0933-8257-9BC0-A411D0F424BF" name="Vehiculos PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-03 02:25:39 UTC</createdTime>
+<ownerDesignName>Exp2_S4_grupo14</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B07CCEDE-59F7-0CAD-EA1A-CF206AA33B78" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68954A80-A6E9-AC9C-9C82-A4DC6E42D652</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
