@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E39EDFE-B5EC-AD1C-B59D-9405CC9E37C1" name="Clientes">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>88610AFC-261B-CBAD-79C4-0A959A22D0DE</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT" id="B5679545-7106-47F1-32EC-89B2AF6488D2">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>538CBCDA-B501-4DB4-C88B-9CF746C96EF8</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="D6703934-255D-0EC4-B832-2D6A38234DE4">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>E70EC866-FC02-2844-5022-D2365520A0DF</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="1BF13B67-3433-4AE9-6270-6DE5D88AD6F5">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>297543EF-56D2-3F64-FDCD-F5B11C6C4A7C</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="domicilio" id="BCAF14B8-873B-93FF-0428-BB89B2935672">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>FA846C9B-D010-4398-AFBD-52B8097BAA24</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contacto" id="67E2AB90-6537-5E6E-2D56-89F8EEE132E0">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>8FC96571-20F1-E21A-67E9-613E4F7D6ABF</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC7ADF35-B5C8-CB15-D02C-464F997AA490</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3985D65C-82A6-A8FA-1863-A87D2B1B27B5" name="Clientes PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>C45FD103-363D-35B8-AE27-7FC550F5496F</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5679545-7106-47F1-32EC-89B2AF6488D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA63416E-9EC7-DF95-5F65-67993FAE7475" name="Repuestos">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>5C5DD5A2-49DD-3377-A3F0-D8424A8D09E0</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id repuesto" id="0DFDF6D3-2017-422E-5374-3E04BB9A1573">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>67AFB241-D9A6-B62D-B5DD-015DE004D7D1</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="741560EC-D35A-A704-25EF-13D6044B6FA7">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>86A222E5-B8D2-DE32-82E1-8F0B2FF0E85A</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="4B2338E3-8D55-D188-54D0-4CE08B46C224">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>17179373-AD37-84AB-5388-739EDFC89A81</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="DDEECF29-ADCB-69EB-0C82-BC913C98C06A">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>5FA6A57F-9E04-43EA-6D5D-15329DF87206</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>05F7CC72-B488-5176-A145-7B828867DC6F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="2044703B-0952-A8C5-7443-696E900CA9C4">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>0F3BE409-B276-E435-72F6-D1A9E3C49375</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC7ADF35-B5C8-CB15-D02C-464F997AA490</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="115584D0-9B3B-7B2F-4158-DBE230D7F7E9" name="Repuestos PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>69AC285A-1A3A-E4DE-6D30-527D89E5CD4D</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DFDF6D3-2017-422E-5374-3E04BB9A1573</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

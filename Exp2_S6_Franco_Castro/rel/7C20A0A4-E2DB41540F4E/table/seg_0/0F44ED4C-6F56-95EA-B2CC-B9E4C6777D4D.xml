@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0F44ED4C-6F56-95EA-B2CC-B9E4C6777D4D" name="Estado_de_Servicio">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>4FF5D2F9-A9AD-00F4-13E3-6B7078FD0A84</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="630A572B-D40B-6DBA-7D7A-F02DD6444829">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>2D4C8AA3-3D17-5DC8-03CA-D0244356196F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="1734FF6B-D294-AE49-F732-0773487044D3">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>622B109D-384C-1DE0-0573-F3E381477835</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ordenes_de_Atencion_id_orden" id="47C53A45-2F47-3DDC-DA64-798A314A7E39">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>3CBE3553-6A30-E164-00FB-DE71439A6053</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C5A8BC3-36E8-89C1-FB74-30B9CC345611" referredColumn="7CC9F7EF-7736-9C98-DA40-F4B568C0A286"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED0242F3-743C-B776-5680-315C04EDE464" name="Estado_de_Servicio_PK">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>11E258BC-9639-2E98-8EF4-14A6EC56933E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="630A572B-D40B-6DBA-7D7A-F02DD6444829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34586032-602B-14F4-3418-AF3EE7888DD5" name="Estado_de_Servicio_Ordenes_de_Atencion_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47C53A45-2F47-3DDC-DA64-798A314A7E39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

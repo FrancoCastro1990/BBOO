@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E404258-984A-4D7E-7746-79721F48606E" containerWithKeyObject="45F1DF95-BDBE-AD37-1B3E-C42F8B97BC9A" localFKIndex="B17A5A07-6232-C6B4-36B8-F5C6D2902CB6" name="Ordenes_Repuestos_Ordenes_de_Atencion_FK">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>720BAC94-FCA5-6AE6-315A-D7F424EAE144</importedID>
+<referredTableLongName>Ordenes_de_Atencion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D7F52B3D-E027-2702-E999-EC7BF28D3B89</referredTableID>
+<keyObject>38FD006B-A68C-6D81-18E7-62C508D7ABE9</keyObject>
+<referredKeyID>38FD006B-A68C-6D81-18E7-62C508D7ABE9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_orden</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

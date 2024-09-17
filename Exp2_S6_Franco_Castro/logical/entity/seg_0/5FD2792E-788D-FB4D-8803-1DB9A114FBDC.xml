@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5FD2792E-788D-FB4D-8803-1DB9A114FBDC" name="Estado de Servicio">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>0F44ED4C-6F56-95EA-B2CC-B9E4C6777D4D</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id estado" id="D683AF1D-9D6D-3D81-E332-61D3130F4270">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>630A572B-D40B-6DBA-7D7A-F02DD6444829</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="2D766872-6467-0CA5-4A18-86361BE8EDFE">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>1734FF6B-D294-AE49-F732-0773487044D3</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ordenes de Atencion id orden" id="86C55A5D-186C-4BC0-9C5E-EC0160D5D561">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>BACD0B28-9159-7A18-1530-0F2CC35AE257</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>4733CE7E-1AA8-FDFB-8861-C6BCB6FFA73D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="559D191E-BF45-DCA4-C044-CF312CE830C7" name="Estado de Servicio PK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>ED0242F3-743C-B776-5680-315C04EDE464</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D683AF1D-9D6D-3D81-E332-61D3130F4270</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

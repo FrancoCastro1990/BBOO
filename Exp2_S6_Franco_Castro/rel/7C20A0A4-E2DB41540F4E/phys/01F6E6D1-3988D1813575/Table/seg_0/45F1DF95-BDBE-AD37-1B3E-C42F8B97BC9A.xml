@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Ordenes_Repuestos" directorySegmentName="seg_0" id="45F1DF95-BDBE-AD37-1B3E-C42F8B97BC9A">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cantidad" id="0522068D-1A4D-92D4-CA5F-F665075CCA80">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Ordenes_de_Atencion_id_orden" id="5DFE9393-B459-D5F7-B434-A356CDF286DA">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Repuestos_id_repuesto" id="CFABB702-4FD0-7549-D296-7C89BA6919DA">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Ordenes_Repuestos_Repuestos_FK" id="46CCA631-61E3-97B9-CAE5-3EE24D403B70">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Ordenes_Repuestos_Ordenes_de_Atencion_FK" id="B17A5A07-6232-C6B4-36B8-F5C6D2902CB6">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Ordenes_Repuestos_PK" id="3DE357B1-476D-3E66-DAEF-8DF22166112F">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

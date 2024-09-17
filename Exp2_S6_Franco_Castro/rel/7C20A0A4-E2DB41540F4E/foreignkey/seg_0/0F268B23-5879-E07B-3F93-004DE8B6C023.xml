@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F268B23-5879-E07B-3F93-004DE8B6C023" containerWithKeyObject="7CDDF204-5EF5-1DBE-DBED-A14953A2D653" localFKIndex="D691D525-18B5-A6F4-6724-70FFF20463C6" name="Ordenes_Servicios_Servicios_FK">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>C55CF702-6DC1-9AA5-B264-B344859FB370</importedID>
+<referredTableLongName>Servicios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12597F1E-3620-E3E1-B396-A746C69CA21B</referredTableID>
+<keyObject>0C534F08-DAD9-15DB-2C62-F37F6C42CF6F</keyObject>
+<referredKeyID>0C534F08-DAD9-15DB-2C62-F37F6C42CF6F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

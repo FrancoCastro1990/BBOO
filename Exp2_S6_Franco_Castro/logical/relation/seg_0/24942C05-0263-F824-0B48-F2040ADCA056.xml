@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_ordenes_repuestos_ordenes" directorySegmentName="seg_0" id="24942C05-0263-F824-0B48-F2040ADCA056">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>6E404258-984A-4D7E-7746-79721F48606E</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<sourcePk>300B073C-2936-828C-C84F-78E15B58A3B9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFC281B1-D03F-4D5A-5D32-F8F839F1B753</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7D88FB1-ABAD-8039-2B4B-EFB3419238CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

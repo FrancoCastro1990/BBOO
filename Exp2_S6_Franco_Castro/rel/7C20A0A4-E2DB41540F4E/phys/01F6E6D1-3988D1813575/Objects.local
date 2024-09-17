@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v10g.StructuredTypeProxyOraclev10g" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="0F44ED4C-6F56-95EA-B2CC-B9E4C6777D4D" name="Estado_de_Servicio" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="12597F1E-3620-E3E1-B396-A746C69CA21B" name="Servicios" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="45F1DF95-BDBE-AD37-1B3E-C42F8B97BC9A" name="Ordenes_Repuestos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="5C5DD5A2-49DD-3377-A3F0-D8424A8D09E0" name="Repuestos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="7CDDF204-5EF5-1DBE-DBED-A14953A2D653" name="Ordenes_Servicios" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="88610AFC-261B-CBAD-79C4-0A959A22D0DE" name="Clientes" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="A4400851-92C5-0653-FB44-5A9AA954DC82" name="Vehiculos" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+   <object objectType="Table" objectID="D7F52B3D-E027-2702-E999-EC7BF28D3B89" name="Ordenes_de_Atencion" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" propertyParentId="01F6E6D1-3988D1813575"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v20c.StorageDesignOraclev20c>

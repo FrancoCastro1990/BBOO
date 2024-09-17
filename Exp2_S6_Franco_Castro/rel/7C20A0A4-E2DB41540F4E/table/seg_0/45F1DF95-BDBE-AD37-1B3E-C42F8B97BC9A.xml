@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45F1DF95-BDBE-AD37-1B3E-C42F8B97BC9A" name="Ordenes_Repuestos">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>62FBABC3-FD5A-CE55-D122-756E0EBE1BAB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Ordenes_de_Atencion_id_orden" id="5DFE9393-B459-D5F7-B434-A356CDF286DA">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>80CAB529-BF31-FAD9-673F-2BB160EDCD5D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E404258-984A-4D7E-7746-79721F48606E" referredColumn="7CC9F7EF-7736-9C98-DA40-F4B568C0A286"/>
+</associations>
+</Column>
+<Column name="Repuestos_id_repuesto" id="CFABB702-4FD0-7549-D296-7C89BA6919DA">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>3FA04EC9-FFBA-377D-B0C2-D303E6BAB1CB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F16AE1BD-1D95-B682-26C9-736C2BB4169D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DD1F167-E520-6684-6687-35148E0B9548" referredColumn="67AFB241-D9A6-B62D-B5DD-015DE004D7D1"/>
+</associations>
+</Column>
+<Column name="cantidad" id="0522068D-1A4D-92D4-CA5F-F665075CCA80">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>5C37A418-9717-4522-3B8A-5A6EDE7B47EF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>EC7ADF35-B5C8-CB15-D02C-464F997AA490</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DE357B1-476D-3E66-DAEF-8DF22166112F" name="Ordenes_Repuestos_PK">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>76FFE211-D73D-0C47-BBE7-BC21FE3C4FAD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DFE9393-B459-D5F7-B434-A356CDF286DA"/>
+<colUsage columnID="CFABB702-4FD0-7549-D296-7C89BA6919DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B17A5A07-6232-C6B4-36B8-F5C6D2902CB6" name="Ordenes_Repuestos_Ordenes_de_Atencion_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DFE9393-B459-D5F7-B434-A356CDF286DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46CCA631-61E3-97B9-CAE5-3EE24D403B70" name="Ordenes_Repuestos_Repuestos_FK">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFABB702-4FD0-7549-D296-7C89BA6919DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

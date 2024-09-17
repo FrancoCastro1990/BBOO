@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Exp2_S6_Franco_Castro" id="D5824844-C279-1928-D9D8-56B27B989E63" version="3.5">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:50:55 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5824844-C279-1928-D9D8-56B27B989E63</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="80432164-3BE1-5D55-C4F0-A49B6B46860B">
+<designStoragePath>C:\complete-automotive-service-db-model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

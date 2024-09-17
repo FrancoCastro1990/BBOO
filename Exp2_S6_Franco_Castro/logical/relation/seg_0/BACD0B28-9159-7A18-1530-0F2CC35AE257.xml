@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_estado_ordenes" directorySegmentName="seg_0" id="BACD0B28-9159-7A18-1530-0F2CC35AE257">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>0C5A8BC3-36E8-89C1-FB74-30B9CC345611</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<sourcePk>300B073C-2936-828C-C84F-78E15B58A3B9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BFC281B1-D03F-4D5A-5D32-F8F839F1B753</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5FD2792E-788D-FB4D-8803-1DB9A114FBDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

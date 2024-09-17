@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_vehiculos_clientes" directorySegmentName="seg_0" id="1D912E2C-0637-0BD1-9718-6F7C88E02FEF">
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:19 UTC</createdTime>
+<generatorID>FD79D13E-5086-94B0-E4D3-B6101EBE45E5</generatorID>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<engineerTo>
+<item key="7C20A0A4-6D0A-204A-08CA-E2DB41540F4E" value="true"/>
+</engineerTo>
+<sourcePk>3985D65C-82A6-A8FA-1863-A87D2B1B27B5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2E39EDFE-B5EC-AD1C-B59D-9405CC9E37C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7BBBBFD8-2AE7-9E79-D9C6-0D6F0D75251C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

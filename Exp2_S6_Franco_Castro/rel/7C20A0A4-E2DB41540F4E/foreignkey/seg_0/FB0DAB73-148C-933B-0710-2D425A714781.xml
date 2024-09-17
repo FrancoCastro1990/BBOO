@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB0DAB73-148C-933B-0710-2D425A714781" containerWithKeyObject="D7F52B3D-E027-2702-E999-EC7BF28D3B89" localFKIndex="E924172D-9C40-5DE3-709A-B879B86AD88A" name="Ordenes_de_Atencion_Clientes_FK">
+<sourceDDLFile>complete-automotive-service-db-model.sql</sourceDDLFile>
+<createdBy>franc</createdBy>
+<createdTime>2024-09-17 01:53:05 UTC</createdTime>
+<ownerDesignName>Exp2_S6_Franco_Castro</ownerDesignName>
+<importedID>DE8CB010-9121-D6AA-B8C0-E574696088BB</importedID>
+<referredTableLongName>Clientes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88610AFC-261B-CBAD-79C4-0A959A22D0DE</referredTableID>
+<keyObject>C45FD103-363D-35B8-AE27-7FC550F5496F</keyObject>
+<referredKeyID>C45FD103-363D-35B8-AE27-7FC550F5496F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>RUT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
